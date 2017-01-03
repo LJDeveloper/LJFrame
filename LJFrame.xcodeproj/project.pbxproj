@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045179741DAC8FBD00D77751 /* tabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 045179731DAC8FBD00D77751 /* tabbarVC.m */; };
 		049418851DAB2D700053893D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 049418841DAB2D700053893D /* main.m */; };
 		049418881DAB2D700053893D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 049418871DAB2D700053893D /* AppDelegate.m */; };
-		0494188B1DAB2D700053893D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494188A1DAB2D700053893D /* ViewController.m */; };
-		0494188E1DAB2D700053893D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0494188C1DAB2D700053893D /* Main.storyboard */; };
 		049418901DAB2D700053893D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0494188F1DAB2D700053893D /* Assets.xcassets */; };
 		049418931DAB2D700053893D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049418911DAB2D700053893D /* LaunchScreen.storyboard */; };
 		0494189E1DAB2D700053893D /* EaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494189D1DAB2D700053893D /* EaskTests.m */; };
 		049418A91DAB2D700053893D /* EaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 049418A81DAB2D700053893D /* EaskUITests.m */; };
+		049418EE1DAB6E2B0053893D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 049418ED1DAB6E2B0053893D /* Main.storyboard */; };
+		04D220911DAF299D00589BDE /* baseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D220901DAF299D00589BDE /* baseVC.m */; };
+		04D220941DAF29FA00589BDE /* bar1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D220931DAF29FA00589BDE /* bar1VC.m */; };
+		04D220971DAF2AFF00589BDE /* bar2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D220961DAF2AFF00589BDE /* bar2VC.m */; };
+		04D2209A1DAF2B1E00589BDE /* bar4VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D220991DAF2B1E00589BDE /* bar4VC.m */; };
+		04D2209D1DAF2B3300589BDE /* bar3VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2209C1DAF2B3300589BDE /* bar3VC.m */; };
+		04D220A01DAF2B4600589BDE /* bar5VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2209F1DAF2B4600589BDE /* bar5VC.m */; };
+		04E595931DB70C4B003D0B04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E595921DB70C4B003D0B04 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +42,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		049418801DAB2D700053893D /* Eask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045179721DAC8FBD00D77751 /* tabbarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tabbarVC.h; sourceTree = "<group>"; };
+		045179731DAC8FBD00D77751 /* tabbarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tabbarVC.m; sourceTree = "<group>"; };
+		049418801DAB2D700053893D /* LJFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049418841DAB2D700053893D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		049418861DAB2D700053893D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		049418871DAB2D700053893D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		049418891DAB2D700053893D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0494188A1DAB2D700053893D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0494188D1DAB2D700053893D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0494188F1DAB2D700053893D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049418921DAB2D700053893D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		049418941DAB2D700053893D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		049418991DAB2D700053893D /* EaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049418991DAB2D700053893D /* LJFrameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJFrameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0494189D1DAB2D700053893D /* EaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EaskTests.m; sourceTree = "<group>"; };
 		0494189F1DAB2D700053893D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		049418A41DAB2D700053893D /* EaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049418A41DAB2D700053893D /* LJFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		049418A81DAB2D700053893D /* EaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EaskUITests.m; sourceTree = "<group>"; };
 		049418AA1DAB2D700053893D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049418CB1DAB30020053893D /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Macro.h; path = ../Eask/Macro.h; sourceTree = "<group>"; };
+		049418CC1DAB302C0053893D /* API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = API.h; sourceTree = "<group>"; };
+		049418CD1DAB30490053893D /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		049418CE1DAB336A0053893D /* Eask.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Eask.pch; sourceTree = "<group>"; };
+		049418ED1DAB6E2B0053893D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		04D2208F1DAF299D00589BDE /* baseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = baseVC.h; sourceTree = "<group>"; };
+		04D220901DAF299D00589BDE /* baseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = baseVC.m; sourceTree = "<group>"; };
+		04D220921DAF29FA00589BDE /* bar1VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bar1VC.h; sourceTree = "<group>"; };
+		04D220931DAF29FA00589BDE /* bar1VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bar1VC.m; sourceTree = "<group>"; };
+		04D220951DAF2AFF00589BDE /* bar2VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bar2VC.h; sourceTree = "<group>"; };
+		04D220961DAF2AFF00589BDE /* bar2VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bar2VC.m; sourceTree = "<group>"; };
+		04D220981DAF2B1E00589BDE /* bar4VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bar4VC.h; sourceTree = "<group>"; };
+		04D220991DAF2B1E00589BDE /* bar4VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bar4VC.m; sourceTree = "<group>"; };
+		04D2209B1DAF2B3300589BDE /* bar3VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bar3VC.h; sourceTree = "<group>"; };
+		04D2209C1DAF2B3300589BDE /* bar3VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bar3VC.m; sourceTree = "<group>"; };
+		04D2209E1DAF2B4600589BDE /* bar5VC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bar5VC.h; sourceTree = "<group>"; };
+		04D2209F1DAF2B4600589BDE /* bar5VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bar5VC.m; sourceTree = "<group>"; };
+		04E595911DB70C4B003D0B04 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04E595921DB70C4B003D0B04 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +106,14 @@
 		049418771DAB2D700053893D = {
 			isa = PBXGroup;
 			children = (
-				049418821DAB2D700053893D /* Eask */,
+				049418BD1DAB2F570053893D /* Commons */,
+				049418BE1DAB2F570053893D /* ImageData */,
+				049418BF1DAB2F570053893D /* Models */,
+				049418C01DAB2F570053893D /* NetWork */,
+				049418C11DAB2F570053893D /* Resourse */,
+				049418C21DAB2F570053893D /* ViewControllers */,
+				049418C31DAB2F570053893D /* Views */,
+				049418821DAB2D700053893D /* LJFrame */,
 				0494189C1DAB2D700053893D /* EaskTests */,
 				049418A71DAB2D700053893D /* EaskUITests */,
 				049418811DAB2D700053893D /* Products */,
@@ -91,26 +123,28 @@
 		049418811DAB2D700053893D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				049418801DAB2D700053893D /* Eask.app */,
-				049418991DAB2D700053893D /* EaskTests.xctest */,
-				049418A41DAB2D700053893D /* EaskUITests.xctest */,
+				049418801DAB2D700053893D /* LJFrame.app */,
+				049418991DAB2D700053893D /* LJFrameTests.xctest */,
+				049418A41DAB2D700053893D /* LJFrameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		049418821DAB2D700053893D /* Eask */ = {
+		049418821DAB2D700053893D /* LJFrame */ = {
 			isa = PBXGroup;
 			children = (
+				04E595911DB70C4B003D0B04 /* ViewController.h */,
+				04E595921DB70C4B003D0B04 /* ViewController.m */,
+				049418ED1DAB6E2B0053893D /* Main.storyboard */,
 				049418861DAB2D700053893D /* AppDelegate.h */,
 				049418871DAB2D700053893D /* AppDelegate.m */,
-				049418891DAB2D700053893D /* ViewController.h */,
-				0494188A1DAB2D700053893D /* ViewController.m */,
-				0494188C1DAB2D700053893D /* Main.storyboard */,
 				0494188F1DAB2D700053893D /* Assets.xcassets */,
 				049418911DAB2D700053893D /* LaunchScreen.storyboard */,
 				049418941DAB2D700053893D /* Info.plist */,
+				049418CE1DAB336A0053893D /* Eask.pch */,
 				049418831DAB2D700053893D /* Supporting Files */,
 			);
+			name = LJFrame;
 			path = Eask;
 			sourceTree = "<group>";
 		};
@@ -140,12 +174,118 @@
 			path = EaskUITests;
 			sourceTree = "<group>";
 		};
+		049418BD1DAB2F570053893D /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				049418CB1DAB30020053893D /* Macro.h */,
+				049418CC1DAB302C0053893D /* API.h */,
+				049418CD1DAB30490053893D /* Global.h */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		049418BE1DAB2F570053893D /* ImageData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ImageData;
+			sourceTree = "<group>";
+		};
+		049418BF1DAB2F570053893D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		049418C01DAB2F570053893D /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		049418C11DAB2F570053893D /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		049418C21DAB2F570053893D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				045179721DAC8FBD00D77751 /* tabbarVC.h */,
+				045179731DAC8FBD00D77751 /* tabbarVC.m */,
+				04D2208F1DAF299D00589BDE /* baseVC.h */,
+				04D220901DAF299D00589BDE /* baseVC.m */,
+				049418D61DAB3B750053893D /* bar1 */,
+				049418D71DAB3B750053893D /* bar2 */,
+				049418D81DAB3B750053893D /* bar3 */,
+				049418D91DAB3B750053893D /* bar4 */,
+				049418DA1DAB3B750053893D /* bar5 */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		049418C31DAB2F570053893D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		049418D61DAB3B750053893D /* bar1 */ = {
+			isa = PBXGroup;
+			children = (
+				04D220921DAF29FA00589BDE /* bar1VC.h */,
+				04D220931DAF29FA00589BDE /* bar1VC.m */,
+			);
+			path = bar1;
+			sourceTree = "<group>";
+		};
+		049418D71DAB3B750053893D /* bar2 */ = {
+			isa = PBXGroup;
+			children = (
+				04D220951DAF2AFF00589BDE /* bar2VC.h */,
+				04D220961DAF2AFF00589BDE /* bar2VC.m */,
+			);
+			path = bar2;
+			sourceTree = "<group>";
+		};
+		049418D81DAB3B750053893D /* bar3 */ = {
+			isa = PBXGroup;
+			children = (
+				04D2209B1DAF2B3300589BDE /* bar3VC.h */,
+				04D2209C1DAF2B3300589BDE /* bar3VC.m */,
+			);
+			path = bar3;
+			sourceTree = "<group>";
+		};
+		049418D91DAB3B750053893D /* bar4 */ = {
+			isa = PBXGroup;
+			children = (
+				04D220981DAF2B1E00589BDE /* bar4VC.h */,
+				04D220991DAF2B1E00589BDE /* bar4VC.m */,
+			);
+			path = bar4;
+			sourceTree = "<group>";
+		};
+		049418DA1DAB3B750053893D /* bar5 */ = {
+			isa = PBXGroup;
+			children = (
+				04D2209E1DAF2B4600589BDE /* bar5VC.h */,
+				04D2209F1DAF2B4600589BDE /* bar5VC.m */,
+			);
+			path = bar5;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0494187F1DAB2D700053893D /* Eask */ = {
+		0494187F1DAB2D700053893D /* LJFrame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 049418AD1DAB2D700053893D /* Build configuration list for PBXNativeTarget "Eask" */;
+			buildConfigurationList = 049418AD1DAB2D700053893D /* Build configuration list for PBXNativeTarget "LJFrame" */;
 			buildPhases = (
 				0494187C1DAB2D700053893D /* Sources */,
 				0494187D1DAB2D700053893D /* Frameworks */,
@@ -155,14 +295,14 @@
 			);
 			dependencies = (
 			);
-			name = Eask;
+			name = LJFrame;
 			productName = Eask;
-			productReference = 049418801DAB2D700053893D /* Eask.app */;
+			productReference = 049418801DAB2D700053893D /* LJFrame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		049418981DAB2D700053893D /* EaskTests */ = {
+		049418981DAB2D700053893D /* LJFrameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 049418B01DAB2D700053893D /* Build configuration list for PBXNativeTarget "EaskTests" */;
+			buildConfigurationList = 049418B01DAB2D700053893D /* Build configuration list for PBXNativeTarget "LJFrameTests" */;
 			buildPhases = (
 				049418951DAB2D700053893D /* Sources */,
 				049418961DAB2D700053893D /* Frameworks */,
@@ -173,14 +313,14 @@
 			dependencies = (
 				0494189B1DAB2D700053893D /* PBXTargetDependency */,
 			);
-			name = EaskTests;
+			name = LJFrameTests;
 			productName = EaskTests;
-			productReference = 049418991DAB2D700053893D /* EaskTests.xctest */;
+			productReference = 049418991DAB2D700053893D /* LJFrameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		049418A31DAB2D700053893D /* EaskUITests */ = {
+		049418A31DAB2D700053893D /* LJFrameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 049418B31DAB2D700053893D /* Build configuration list for PBXNativeTarget "EaskUITests" */;
+			buildConfigurationList = 049418B31DAB2D700053893D /* Build configuration list for PBXNativeTarget "LJFrameUITests" */;
 			buildPhases = (
 				049418A01DAB2D700053893D /* Sources */,
 				049418A11DAB2D700053893D /* Frameworks */,
@@ -191,9 +331,9 @@
 			dependencies = (
 				049418A61DAB2D700053893D /* PBXTargetDependency */,
 			);
-			name = EaskUITests;
+			name = LJFrameUITests;
 			productName = EaskUITests;
-			productReference = 049418A41DAB2D700053893D /* EaskUITests.xctest */;
+			productReference = 049418A41DAB2D700053893D /* LJFrameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -203,10 +343,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
-				ORGANIZATIONNAME = "沸腾医疗";
+				ORGANIZATIONNAME = LJ;
 				TargetAttributes = {
 					0494187F1DAB2D700053893D = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RUJ7S3GZH6;
 						ProvisioningStyle = Automatic;
 					};
 					049418981DAB2D700053893D = {
@@ -221,7 +362,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0494187B1DAB2D700053893D /* Build configuration list for PBXProject "Eask" */;
+			buildConfigurationList = 0494187B1DAB2D700053893D /* Build configuration list for PBXProject "LJFrame" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -234,9 +375,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0494187F1DAB2D700053893D /* Eask */,
-				049418981DAB2D700053893D /* EaskTests */,
-				049418A31DAB2D700053893D /* EaskUITests */,
+				0494187F1DAB2D700053893D /* LJFrame */,
+				049418981DAB2D700053893D /* LJFrameTests */,
+				049418A31DAB2D700053893D /* LJFrameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,7 +389,7 @@
 			files = (
 				049418931DAB2D700053893D /* LaunchScreen.storyboard in Resources */,
 				049418901DAB2D700053893D /* Assets.xcassets in Resources */,
-				0494188E1DAB2D700053893D /* Main.storyboard in Resources */,
+				049418EE1DAB6E2B0053893D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +414,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0494188B1DAB2D700053893D /* ViewController.m in Sources */,
+				045179741DAC8FBD00D77751 /* tabbarVC.m in Sources */,
 				049418881DAB2D700053893D /* AppDelegate.m in Sources */,
 				049418851DAB2D700053893D /* main.m in Sources */,
+				04D220911DAF299D00589BDE /* baseVC.m in Sources */,
+				04E595931DB70C4B003D0B04 /* ViewController.m in Sources */,
+				04D2209A1DAF2B1E00589BDE /* bar4VC.m in Sources */,
+				04D220A01DAF2B4600589BDE /* bar5VC.m in Sources */,
+				04D2209D1DAF2B3300589BDE /* bar3VC.m in Sources */,
+				04D220971DAF2AFF00589BDE /* bar2VC.m in Sources */,
+				04D220941DAF29FA00589BDE /* bar1VC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,25 +448,17 @@
 /* Begin PBXTargetDependency section */
 		0494189B1DAB2D700053893D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0494187F1DAB2D700053893D /* Eask */;
+			target = 0494187F1DAB2D700053893D /* LJFrame */;
 			targetProxy = 0494189A1DAB2D700053893D /* PBXContainerItemProxy */;
 		};
 		049418A61DAB2D700053893D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0494187F1DAB2D700053893D /* Eask */;
+			target = 0494187F1DAB2D700053893D /* LJFrame */;
 			targetProxy = 049418A51DAB2D700053893D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0494188C1DAB2D700053893D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0494188D1DAB2D700053893D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		049418911DAB2D700053893D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -422,7 +562,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RUJ7S3GZH6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Eask/Eask.pch";
 				INFOPLIST_FILE = Eask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.feiteng.Eask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +576,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RUJ7S3GZH6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Eask/Eask.pch";
 				INFOPLIST_FILE = Eask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.feiteng.Eask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,7 +594,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.feiteng.EaskTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eask.app/Eask";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJFrame.app/LJFrame";
 			};
 			name = Debug;
 		};
@@ -460,7 +606,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.feiteng.EaskTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eask.app/Eask";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJFrame.app/LJFrame";
 			};
 			name = Release;
 		};
@@ -489,7 +635,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0494187B1DAB2D700053893D /* Build configuration list for PBXProject "Eask" */ = {
+		0494187B1DAB2D700053893D /* Build configuration list for PBXProject "LJFrame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				049418AB1DAB2D700053893D /* Debug */,
@@ -498,29 +644,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		049418AD1DAB2D700053893D /* Build configuration list for PBXNativeTarget "Eask" */ = {
+		049418AD1DAB2D700053893D /* Build configuration list for PBXNativeTarget "LJFrame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				049418AE1DAB2D700053893D /* Debug */,
 				049418AF1DAB2D700053893D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		049418B01DAB2D700053893D /* Build configuration list for PBXNativeTarget "EaskTests" */ = {
+		049418B01DAB2D700053893D /* Build configuration list for PBXNativeTarget "LJFrameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				049418B11DAB2D700053893D /* Debug */,
 				049418B21DAB2D700053893D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		049418B31DAB2D700053893D /* Build configuration list for PBXNativeTarget "EaskUITests" */ = {
+		049418B31DAB2D700053893D /* Build configuration list for PBXNativeTarget "LJFrameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				049418B41DAB2D700053893D /* Debug */,
 				049418B51DAB2D700053893D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

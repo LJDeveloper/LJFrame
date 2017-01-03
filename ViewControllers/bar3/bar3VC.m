@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  bar3VC.m
 //  Eask
 //
-//  Created by mac on 16/10/19.
+//  Created by mac on 16/10/13.
 //  Copyright © 2016年 沸腾医疗. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "bar3VC.h"
 
-@interface ViewController ()
+@interface bar3VC ()
 
 @end
 
-@implementation ViewController
+@implementation bar3VC
 
 - (void)viewDidLoad {
     [super viewDidLoad];

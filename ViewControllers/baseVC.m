@@ -1,22 +1,32 @@
 //
-//  ViewController.m
+//  baseVC.m
 //  Eask
 //
-//  Created by mac on 16/10/19.
+//  Created by mac on 16/10/13.
 //  Copyright © 2016年 沸腾医疗. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "baseVC.h"
 
-@interface ViewController ()
+@interface baseVC ()
 
 @end
 
-@implementation ViewController
-
-- (void)viewDidLoad {
-    [super viewDidLoad];
+@implementation baseVC
+-(UILabel *)lable
+{
+    if (!_lable)
+    {
+        self.lable = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, 100, 44)];
+        _lable.textAlignment=NSTextAlignmentCenter;
+        _lable.font = [UIFont systemFontOfSize:17];
+        self.navigationItem.titleView=_lable;
+    }
+    return _lable;
+}
+- (void)viewDidLoad {     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor colorWithRed:arc4random()%255/255.0 green:arc4random()%255/255.0 blue:arc4random()%255/255.0 alpha:1];
 }
 
 - (void)didReceiveMemoryWarning {

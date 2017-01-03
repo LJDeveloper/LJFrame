@@ -1,0 +1,17 @@
+//
+//  Eask.pch
+//  Eask
+//
+//  Created by mac on 16/10/10.
+//  Copyright © 2016年 沸腾医疗. All rights reserved.
+//
+
+#ifndef Eask_pch
+#define Eask_pch
+#import "API.h"
+#import "Macro.h"
+#import "Global.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Eask_pch */

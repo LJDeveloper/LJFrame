@@ -1,22 +1,23 @@
 //
-//  ViewController.m
+//  bar2VC.m
 //  Eask
 //
-//  Created by mac on 16/10/19.
+//  Created by mac on 16/10/13.
 //  Copyright © 2016年 沸腾医疗. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "bar2VC.h"
 
-@interface ViewController ()
+@interface bar2VC ()
 
 @end
 
-@implementation ViewController
+@implementation bar2VC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.lable.text = @"发现";
 }
 
 - (void)didReceiveMemoryWarning {

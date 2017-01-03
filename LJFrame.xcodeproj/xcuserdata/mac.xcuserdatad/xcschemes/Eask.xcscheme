@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0494187F1DAB2D700053893D"
-               BuildableName = "Eask.app"
-               BlueprintName = "Eask"
-               ReferencedContainer = "container:Eask.xcodeproj">
+               BuildableName = "LJFrame.app"
+               BlueprintName = "LJFrame"
+               ReferencedContainer = "container:LJFrame.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "049418981DAB2D700053893D"
-               BuildableName = "EaskTests.xctest"
-               BlueprintName = "EaskTests"
-               ReferencedContainer = "container:Eask.xcodeproj">
+               BuildableName = "LJFrameTests.xctest"
+               BlueprintName = "LJFrameTests"
+               ReferencedContainer = "container:LJFrame.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "049418A31DAB2D700053893D"
-               BuildableName = "EaskUITests.xctest"
-               BlueprintName = "EaskUITests"
-               ReferencedContainer = "container:Eask.xcodeproj">
+               BuildableName = "LJFrameUITests.xctest"
+               BlueprintName = "LJFrameUITests"
+               ReferencedContainer = "container:LJFrame.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0494187F1DAB2D700053893D"
-            BuildableName = "Eask.app"
-            BlueprintName = "Eask"
-            ReferencedContainer = "container:Eask.xcodeproj">
+            BuildableName = "LJFrame.app"
+            BlueprintName = "LJFrame"
+            ReferencedContainer = "container:LJFrame.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,11 +76,18 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0494187F1DAB2D700053893D"
-            BuildableName = "Eask.app"
-            BlueprintName = "Eask"
-            ReferencedContainer = "container:Eask.xcodeproj">
+            BuildableName = "LJFrame.app"
+            BlueprintName = "LJFrame"
+            ReferencedContainer = "container:LJFrame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "OS_ACTIVITY_MODE"
+            value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -95,9 +102,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0494187F1DAB2D700053893D"
-            BuildableName = "Eask.app"
-            BlueprintName = "Eask"
-            ReferencedContainer = "container:Eask.xcodeproj">
+            BuildableName = "LJFrame.app"
+            BlueprintName = "LJFrame"
+            ReferencedContainer = "container:LJFrame.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
