@@ -23,6 +23,7 @@
 		04D220A01DAF2B4600589BDE /* bar5VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2209F1DAF2B4600589BDE /* bar5VC.m */; };
 		04E595931DB70C4B003D0B04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E595921DB70C4B003D0B04 /* ViewController.m */; };
 		2AC994311E1B8281004B009D /* lj001.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC994301E1B8281004B009D /* lj001.png */; };
+		2AC994391E1B8391004B009D /* lj001.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC994381E1B8391004B009D /* lj001.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		04E595911DB70C4B003D0B04 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		04E595921DB70C4B003D0B04 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2AC994301E1B8281004B009D /* lj001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lj001.png; path = ../../lj001.png; sourceTree = "<group>"; };
+		2AC994381E1B8391004B009D /* lj001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lj001.png; path = ../../lj001.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				049418BD1DAB2F570053893D /* Commons */,
-				049418BE1DAB2F570053893D /* ImageData */,
 				049418BF1DAB2F570053893D /* Models */,
 				049418C01DAB2F570053893D /* NetWork */,
 				049418C11DAB2F570053893D /* Resourse */,
@@ -179,18 +180,12 @@
 		049418BD1DAB2F570053893D /* Commons */ = {
 			isa = PBXGroup;
 			children = (
+				2AC994381E1B8391004B009D /* lj001.png */,
 				049418CB1DAB30020053893D /* Macro.h */,
 				049418CC1DAB302C0053893D /* API.h */,
 				049418CD1DAB30490053893D /* Global.h */,
 			);
 			path = Commons;
-			sourceTree = "<group>";
-		};
-		049418BE1DAB2F570053893D /* ImageData */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ImageData;
 			sourceTree = "<group>";
 		};
 		049418BF1DAB2F570053893D /* Models */ = {
@@ -394,6 +389,7 @@
 				049418901DAB2D700053893D /* Assets.xcassets in Resources */,
 				049418EE1DAB6E2B0053893D /* Main.storyboard in Resources */,
 				2AC994311E1B8281004B009D /* lj001.png in Resources */,
+				2AC994391E1B8391004B009D /* lj001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
