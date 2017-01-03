@@ -22,8 +22,7 @@
 		04D2209D1DAF2B3300589BDE /* bar3VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2209C1DAF2B3300589BDE /* bar3VC.m */; };
 		04D220A01DAF2B4600589BDE /* bar5VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2209F1DAF2B4600589BDE /* bar5VC.m */; };
 		04E595931DB70C4B003D0B04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E595921DB70C4B003D0B04 /* ViewController.m */; };
-		2AC994311E1B8281004B009D /* lj001.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC994301E1B8281004B009D /* lj001.png */; };
-		2AC994391E1B8391004B009D /* lj001.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC994381E1B8391004B009D /* lj001.png */; };
+		2AC9943F1E1B875F004B009D /* images in Resources */ = {isa = PBXBuildFile; fileRef = 2AC9943E1E1B875F004B009D /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,8 +77,7 @@
 		04D2209F1DAF2B4600589BDE /* bar5VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bar5VC.m; sourceTree = "<group>"; };
 		04E595911DB70C4B003D0B04 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		04E595921DB70C4B003D0B04 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2AC994301E1B8281004B009D /* lj001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lj001.png; path = ../../lj001.png; sourceTree = "<group>"; };
-		2AC994381E1B8391004B009D /* lj001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lj001.png; path = ../../lj001.png; sourceTree = "<group>"; };
+		2AC9943E1E1B875F004B009D /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,12 +108,9 @@
 		049418771DAB2D700053893D = {
 			isa = PBXGroup;
 			children = (
+				2AC9943E1E1B875F004B009D /* images */,
 				049418BD1DAB2F570053893D /* Commons */,
-				049418BF1DAB2F570053893D /* Models */,
-				049418C01DAB2F570053893D /* NetWork */,
-				049418C11DAB2F570053893D /* Resourse */,
 				049418C21DAB2F570053893D /* ViewControllers */,
-				049418C31DAB2F570053893D /* Views */,
 				049418821DAB2D700053893D /* LJFrame */,
 				0494189C1DAB2D700053893D /* EaskTests */,
 				049418A71DAB2D700053893D /* EaskUITests */,
@@ -180,34 +175,11 @@
 		049418BD1DAB2F570053893D /* Commons */ = {
 			isa = PBXGroup;
 			children = (
-				2AC994381E1B8391004B009D /* lj001.png */,
 				049418CB1DAB30020053893D /* Macro.h */,
 				049418CC1DAB302C0053893D /* API.h */,
 				049418CD1DAB30490053893D /* Global.h */,
 			);
 			path = Commons;
-			sourceTree = "<group>";
-		};
-		049418BF1DAB2F570053893D /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				2AC994301E1B8281004B009D /* lj001.png */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		049418C01DAB2F570053893D /* NetWork */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = NetWork;
-			sourceTree = "<group>";
-		};
-		049418C11DAB2F570053893D /* Resourse */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Resourse;
 			sourceTree = "<group>";
 		};
 		049418C21DAB2F570053893D /* ViewControllers */ = {
@@ -224,13 +196,6 @@
 				049418DA1DAB3B750053893D /* bar5 */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		049418C31DAB2F570053893D /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		049418D61DAB3B750053893D /* bar1 */ = {
@@ -385,11 +350,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC9943F1E1B875F004B009D /* images in Resources */,
 				049418931DAB2D700053893D /* LaunchScreen.storyboard in Resources */,
 				049418901DAB2D700053893D /* Assets.xcassets in Resources */,
 				049418EE1DAB6E2B0053893D /* Main.storyboard in Resources */,
-				2AC994311E1B8281004B009D /* lj001.png in Resources */,
-				2AC994391E1B8391004B009D /* lj001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

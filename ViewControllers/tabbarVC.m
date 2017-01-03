@@ -76,7 +76,6 @@
     
     bar1VC *firstVC = [[bar1VC alloc]init];
     UINavigationController *navi1 = [[UINavigationController alloc]initWithRootViewController:firstVC];
-    navi1.title = @"首页";
     
     bar2VC *secondVC = [[bar2VC alloc]init];
     UINavigationController *navi2 = [[UINavigationController alloc]initWithRootViewController:secondVC];
