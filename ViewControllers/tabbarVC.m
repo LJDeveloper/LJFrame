@@ -113,7 +113,7 @@
     [_barItem2 setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
     [tabbarBgView addSubview:_barItem2];
     //tabbarItem3(底部按钮3)
-    self.barItem3.frame = CGRectMake(SCREEN_WIDTH/5*2+(SCREEN_WIDTH/5-80)/2, -18, 80, 80);
+    self.barItem3.frame = CGRectMake(SCREEN_WIDTH/5*2+(SCREEN_WIDTH/5-80)/2, -17, 80, 80);
     _barItem3.backgroundColor = UIColorWithRGBA(239, 247, 241, 1);
     [_barItem3 addTarget:self action:@selector(handleBar3Action) forControlEvents:UIControlEventTouchUpInside];
     _barItem3.layer.cornerRadius = 40;
