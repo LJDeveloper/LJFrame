@@ -114,9 +114,10 @@
     [_barItem2 setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
     [tabbarBgView addSubview:_barItem2];
     //tabbarItem3(底部按钮3)
-    self.barItem3.frame = CGRectMake(SCREEN_WIDTH/5*2, 0, SCREEN_WIDTH/5, tabbarBgView.frame.size.height);
-    _barItem3.backgroundColor = [UIColor blackColor];
+    self.barItem3.frame = CGRectMake(SCREEN_WIDTH/5*2+(SCREEN_WIDTH/5-80)/2, -18, 80, 80);
+    _barItem3.backgroundColor = UIColorWithRGBA(239, 247, 241, 1);
     [_barItem3 addTarget:self action:@selector(handleBar3Action) forControlEvents:UIControlEventTouchUpInside];
+    _barItem3.layer.cornerRadius = 40;
     [_barItem3 setTitle:@"提问" forState:UIControlStateNormal];
     [_barItem3 setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
     [tabbarBgView addSubview:_barItem3];
