@@ -22,6 +22,7 @@
 		04D2209D1DAF2B3300589BDE /* bar3VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2209C1DAF2B3300589BDE /* bar3VC.m */; };
 		04D220A01DAF2B4600589BDE /* bar5VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D2209F1DAF2B4600589BDE /* bar5VC.m */; };
 		04E595931DB70C4B003D0B04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E595921DB70C4B003D0B04 /* ViewController.m */; };
+		2AC994311E1B8281004B009D /* lj001.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AC994301E1B8281004B009D /* lj001.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		04D2209F1DAF2B4600589BDE /* bar5VC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bar5VC.m; sourceTree = "<group>"; };
 		04E595911DB70C4B003D0B04 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		04E595921DB70C4B003D0B04 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2AC994301E1B8281004B009D /* lj001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lj001.png; path = ../../lj001.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 		049418BF1DAB2F570053893D /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2AC994301E1B8281004B009D /* lj001.png */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -390,6 +393,7 @@
 				049418931DAB2D700053893D /* LaunchScreen.storyboard in Resources */,
 				049418901DAB2D700053893D /* Assets.xcassets in Resources */,
 				049418EE1DAB6E2B0053893D /* Main.storyboard in Resources */,
+				2AC994311E1B8281004B009D /* lj001.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
