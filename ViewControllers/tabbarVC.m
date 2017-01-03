@@ -104,7 +104,7 @@
     self.barItem1.frame = CGRectMake(0, 0, SCREEN_WIDTH/5, tabbarBgView.frame.size.height);
     [_barItem1 setTitle:@"首页" forState:UIControlStateNormal];
     [_barItem1 addTarget:self action:@selector(handleBar1Action) forControlEvents:UIControlEventTouchUpInside];
-    [_barItem1 setTitleColor:[UIColor darkGrayColor] forState:UIControlStateNormal];
+    [_barItem1 setTitleColor:UIColorWithRGBA(0, 181, 74, 1) forState:UIControlStateNormal];
     [tabbarBgView addSubview:_barItem1];
     //tabbarItem2(底部按钮2)
     self.barItem2.frame = CGRectMake(SCREEN_WIDTH/5, 0, SCREEN_WIDTH/5, tabbarBgView.frame.size.height);
